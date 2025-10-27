@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|c:\\users\\maria\\downloads\\websindicalistas\\websindicalistas\\websindicalistas\\altatrabajador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\altatrabajador.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\websindicalistas\\altadeempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\altadeempresa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\websindicalistas\\registros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\registros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|c:\\users\\maria\\downloads\\websindicalistas\\websindicalistas\\websindicalistas\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\paginaprincipal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\websindicalistas\\paginaprincipal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\paginaprincipal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|c:\\users\\maria\\downloads\\websindicalistas\\websindicalistas\\websindicalistas\\registros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\registros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|c:\\users\\maria\\downloads\\websindicalistas\\websindicalistas\\websindicalistas\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12872A61-A762-46E4-8268-932287AC236D}|WEBSindicalistas\\WEBSindicalistas.csproj|solutionrelative:websindicalistas\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registros.aspx",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\Registros.aspx",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\Registros.aspx",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\Registros.aspx",
+              "RelativeToolTip": "WEBSindicalistas\\Registros.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-21T15:58:20.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaginaPrincipal.aspx",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\PaginaPrincipal.aspx",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\PaginaPrincipal.aspx",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\PaginaPrincipal.aspx",
+              "RelativeToolTip": "WEBSindicalistas\\PaginaPrincipal.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-21T16:00:33.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AltaDeEmpresa.aspx",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\AltaDeEmpresa.aspx",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\AltaDeEmpresa.aspx",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\AltaDeEmpresa.aspx",
+              "RelativeToolTip": "WEBSindicalistas\\AltaDeEmpresa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-21T16:00:16.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AltaTrabajador.aspx",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\AltaTrabajador.aspx",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\AltaTrabajador.aspx",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\AltaTrabajador.aspx",
+              "RelativeToolTip": "WEBSindicalistas\\AltaTrabajador.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-27T15:26:28.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginaPrincipal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\PaginaPrincipal.aspx.cs",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\PaginaPrincipal.aspx.cs",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\PaginaPrincipal.aspx.cs",
+              "RelativeToolTip": "WEBSindicalistas\\PaginaPrincipal.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T16:02:10.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\Registros.aspx.cs",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\Registros.aspx.cs",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\Registros.aspx.cs",
+              "RelativeToolTip": "WEBSindicalistas\\Registros.aspx.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAtwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:24:31.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\Conexion.cs",
+              "RelativeDocumentMoniker": "WEBSindicalistas\\Conexion.cs",
+              "ToolTip": "C:\\Users\\maria\\Downloads\\WEBSindicalistas\\WEBSindicalistas\\WEBSindicalistas\\Conexion.cs",
+              "RelativeToolTip": "WEBSindicalistas\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T15:11:01.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
