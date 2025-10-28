@@ -1,0 +1,106 @@
+SQLQuery3
+
+//Query Ranking empresas
+SELECT 
+    empresa.nombre AS nombre_empresa,
+    COUNT(trabajador.id_trabajador) AS total_formales
+FROM 
+    empresa
+    INNER JOIN trabajador ON empresa.id_empresa = trabajador.id_empresa
+WHERE 
+    trabajador.tipo_empleo = 'Formal'
+GROUP BY 
+    empresa.nombre
+ORDER BY 
+    total_formales DESC;
+
+
+//Query Empresas con mejores condiciones favorables
+
+SELECT 
+    empresa.nombre AS nombre_empresa,
+    ROUND(AVG(empleo.condiciones_favorables), 2) AS promedio_condiciones
+FROM 
+    empresa
+    INNER JOIN trabajador ON empresa.id_empresa = trabajador.id_empresa
+    INNER JOIN empleo ON trabajador.id_empleo = empleo.id_empleo
+GROUP BY 
+    empresa.nombre
+ORDER BY 
+    promedio_condiciones DESC;
+
+
+
+//Query Oficios más informales
+
+SELECT 
+    trabajador.oficio,
+    COUNT(*) AS total_informales
+FROM 
+    trabajador
+WHERE 
+    trabajador.tipo_empleo = 'Informal'
+GROUP BY 
+    trabajador.oficio
+ORDER BY 
+    total_informales DESC;
+
+
+//Query Nivel de formalidad por prestaciones ofrecidas
+
+SELECT 
+    empleo.prestaciones,
+    COUNT(CASE WHEN trabajador.tipo_empleo = 'Formal' THEN 1 END) AS trabajadores_formales,
+    COUNT(CASE WHEN trabajador.tipo_empleo = 'Informal' THEN 1 END) AS trabajadores_informales,
+    ROUND(
+        100.0 * COUNT(CASE WHEN trabajador.tipo_empleo = 'Formal' THEN 1 END) / COUNT(*),
+        2
+    ) AS porcentaje_formalidad
+FROM 
+    empleo
+    INNER JOIN trabajador ON empleo.id_empleo = trabajador.id_empleo
+GROUP BY 
+    empleo.prestaciones
+ORDER BY 
+    porcentaje_formalidad DESC;
+
+
+//Query Distribución geográfica de la formalidad
+
+SELECT 
+    empresa.region,
+    COUNT(CASE WHEN trabajador.tipo_empleo = 'Formal' THEN 1 END) AS trabajadores_formales,
+    COUNT(CASE WHEN trabajador.tipo_empleo = 'Informal' THEN 1 END) AS trabajadores_informales,
+    ROUND(
+        100.0 * COUNT(CASE WHEN trabajador.tipo_empleo = 'Formal' THEN 1 END) / COUNT(*),
+        2
+    ) AS porcentaje_formalidad
+FROM 
+    empresa
+    INNER JOIN trabajador ON empresa.id_empresa = trabajador.id_empresa
+GROUP BY 
+    empresa.region
+ORDER BY 
+    porcentaje_formalidad DESC;
+
+
+//Por estado
+SELECT 
+    estado.nombre_estado,
+    COUNT(CASE WHEN trabajador.tipo_empleo = 'Formal' THEN 1 END) AS trabajadores_formales,
+    COUNT(CASE WHEN trabajador.tipo_empleo = 'Informal' THEN 1 END) AS trabajadores_informales,
+    ROUND(
+        100.0 * COUNT(CASE WHEN trabajador.tipo_empleo = 'Formal' THEN 1 END) / COUNT(*),
+        2
+    ) AS porcentaje_formalidad
+FROM 
+    trabajador
+    INNER JOIN empresa ON trabajador.id_empresa = empresa.id_empresa
+    INNER JOIN estado ON empresa.region = estado.region
+GROUP BY 
+    estado.nombre_estado
+ORDER BY 
+    porcentaje_formalidad DESC;
+
+
+
